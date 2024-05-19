@@ -1,0 +1,33 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.Navbar a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 15px;
+}
+
+.Navbar li{
+    float: right;
+}
+.Navbar a:hover{
+    background-color: rgb(43, 31, 16);
+}
+
+#logo {
+    color: white;
+    font-size: 30px;
+}
